@@ -4,6 +4,11 @@ body {
     line-height: 34px;
     color: #777777;
     background: url("../images/concrete_seamless.png");
+    background: url("../images/final.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   }
   
   * {
@@ -215,4 +220,8 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  
+
+ p {
+   background-color: #ffffff
+ }
+ 
